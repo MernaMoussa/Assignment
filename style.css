@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  overflow: auto;
+  min-width: 1600px;
+}
+header {
+  background-color: #484d79;
+  text-align: right;
+  height: 78px;
+}
+.cart-logo {
+  border: 3px solid black;
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin: 6px 0 0 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+.cart-logo img {
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+.primary-nav {
+  padding: 30px 10px;
+}
+.primary-nav nav li {
+  display: inline;
+  margin-right: 20px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 30px 0px;
+  background: linear-gradient(to right, #1c275f, #df2b18);
+}
+.primary-nav nav a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  margin: 30px 0 60px 20px;
+}
+.home-icon img {
+  margin: 0 0 25px 140px;
+  width: 35px;
+}
+.secondary-nav {
+  background-color: rgb(49, 49, 49);
+  width: 320px;
+  height: 160px;
+  padding: 30px 0 0 10px;
+  color: white;
+  float: left;
+  margin-right: 55px;
+}
+.secondary-nav h1 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.secondary-nav li {
+  padding-bottom: 9px;
+}
+.secondary-nav a {
+  text-decoration: none;
+  color: white;
+}
+.secondary-nav a:hover {
+  color: red;
+}
+.main-box {
+  border: 6px solid rgb(136, 0, 0);
+  display: inline-block;
+  width: 1020px;
+  height: 365px;
+  background-color: rgb(240, 208, 212);
+  padding: 20px 0px 10px 10px;
+}
+.hicoders-logo img {
+  margin: 0 0 20px 345px;
+  width: 330px;
+}
+
+article > h1 {
+  font-size: 26px;
+  font-weight: 750;
+  padding-bottom: 17px;
+}
+article > p {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  padding: 28px;
+  font-size: 18px;
+}
